@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--title-->
+		<title>Dashboard</title>
+		<!--style sheets-->
+		<link href="css/style.css" rel="stylesheet"/>
+		<!--javascript-->
+		<script src="js/main.js"></script>
+		<script src="js/highcharts.js"></script>
+		<!--metadata-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta charset="utf-8"/>
+	</head>
+	<body onload="init();">
+			
+			<div id="content">
+				
+				<div id="chartTemp" class="chart">
+					
+				</div>
+				<div id="chartHum" class="chart">
+					
+				</div>
+				<div id="chartWind" class="chart">
+					
+				</div>
+				<div id="chartPowder" class="chart">
+					
+				</div>
+				<div class="header">
+					<div id="headertext">Dashboard</div>
+				</div>
+				<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+				<label for="openSidebarMenu" class="sidebarIconToggle">
+					<div class="spinner diagonal part-1"></div>
+					<div class="spinner horizontal"></div>
+					<div class="spinner diagonal part-2"></div>
+				</label>
+				<div id="sidebarMenu">
+					<ul id="sidebarElements" class="sidebarMenuInner">
+					
+					</ul>
+				</div>
+		</div>
+	</body>
+</html>
